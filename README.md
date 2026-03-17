@@ -1,31 +1,65 @@
 # 🎓 Student Management System
 
-A Spring Boot based CRUD web application to manage student records efficiently. This project demonstrates the use of Spring Boot, Spring MVC, Spring Data JPA, Thymeleaf, and MySQL.
+A robust and scalable **Spring Boot CRUD application** designed to manage student records efficiently. This project follows a clean **layered architecture (MVC pattern)** and demonstrates best practices in backend development using Java.
+
+---
+
+## 📌 Project Description
+
+The Student Management System enables users to perform complete **CRUD operations** on student data through a user-friendly web interface.
+
+It is built to showcase:
+- Clean code structure
+- Separation of concerns
+- Database integration using JPA
+- Server-side rendering using Thymeleaf
+
+---
+
+## 🏗️ Architecture
+
+The application follows a **3-layer architecture**:
+
+1. **Controller Layer**
+   - Handles HTTP requests
+   - Maps URLs to business logic
+
+2. **Service Layer**
+   - Contains core business logic
+   - Acts as an intermediary between controller and repository
+
+3. **Repository Layer**
+   - Handles database operations
+   - Uses Spring Data JPA for abstraction
 
 ---
 
 ## 🚀 Features
 
-- Add new students  
-- View all students  
-- Update student details  
-- Delete student records  
-- Persistent storage using MySQL  
-- Web interface using Thymeleaf  
+- Create new student records  
+- Retrieve and display all students  
+- Update existing student details  
+- Delete student entries  
+- Server-side rendering with Thymeleaf  
+- Persistent storage with MySQL  
+- Clean and maintainable project structure  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-- Java  
-- Spring Boot  
-- Spring MVC  
-- Spring Data JPA (Hibernate)  
-- MySQL  
-- Thymeleaf  
-- Maven  
+| Layer        | Technology Used              |
+|-------------|-----------------------------|
+| Language     | Java                        |
+| Framework    | Spring Boot                |
+| Web Layer    | Spring MVC                 |
+| ORM          | Hibernate (JPA)            |
+| Database     | MySQL                      |
+| View Engine  | Thymeleaf                  |
+| Build Tool   | Maven                      |
 
 ---
+
 
 ## 📂 Project Structure
 
@@ -112,6 +146,4 @@ GET     /students/{id}         -> Delete student
 ## 👩‍💻 Author
 
 Prachi Koli  
-BE IT Student  
-
 
