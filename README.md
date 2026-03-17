@@ -114,8 +114,4 @@ GET     /students/{id}         -> Delete student
 Prachi Koli  
 BE IT Student  
 
----
 
-## ⭐ Support
-
-If you like this project, give it a star ⭐
